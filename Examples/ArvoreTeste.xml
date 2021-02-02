@@ -1,0 +1,71 @@
+<OpTree>
+	<node id="1" parent="0" side="0" leaf="0">
+		<S>
+			<pair L="1" R="2"></pair>
+		</S>
+		<L>
+			<pair L="2" R="1"></pair>
+		</L>
+		<R>
+			<pair L="2" R="1"></pair>
+		</R>
+	</node>
+	<node id="2" parent="1" side="1" leaf="0">
+		<S>
+			<pair L="1" R="2"></pair>
+		</S>
+		<L></L>
+		<R></R>
+	</node>
+	<node id="3" parent="1" side="2" leaf="0">
+		<S>
+			<pair L="1" R="2"></pair>
+		</S>
+		<L></L>
+		<R>
+			<pair L="1" R="2"></pair>
+		</R>
+	</node>
+	<node id="4" parent="2" side="1" leaf="1">
+		<label>1</label>
+	</node>
+	<node id="5" parent="2" side="2" leaf="1">
+		<label>2</label>
+	</node>
+	<node id="6" parent="3" side="1" leaf="1">
+		<label>1</label>
+	</node>
+	<node id="7" parent="3" side="2" leaf="0">
+		<S>
+			<pair L="2" R="2"></pair>
+		</S>
+		<L></L>
+		<R></R>
+	</node>
+	<node id="8" parent="7" side="1" leaf="0">
+		<S>
+			<pair L="1" R="2"></pair>
+		</S>
+		<L></L>
+		<R></R>
+	</node>
+	<node id="9" parent="7" side="2" leaf="0">
+		<S>
+			<pair L="1" R="2"></pair>
+		</S>
+		<L></L>
+		<R></R>
+	</node>
+	<node id="10" parent="8" side="1" leaf="1">
+		<label>1</label>
+	</node>
+	<node id="11" parent="8" side="2" leaf="1">
+		<label>2</label>
+	</node>
+	<node id="12" parent="9" side="1" leaf="1">
+		<label>1</label>
+	</node>
+	<node id="13" parent="9" side="2" leaf="1">
+		<label>2</label>
+	</node>
+</OpTree>
